@@ -2,10 +2,6 @@ def random
   rand(6) + 1 
 end 
 
-def prompt
-  puts "Please guess a number between 1 and 6."
-end 
-
 def correct
   puts "You guessed the correct number!"
 end
@@ -15,6 +11,7 @@ def incorrect(num)
 end
 
 def user_input
+  puts "Please guess a number between 1 and 6."
   gets.chomp 
 end
 
