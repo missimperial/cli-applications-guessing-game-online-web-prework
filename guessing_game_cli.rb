@@ -1,6 +1,6 @@
 def user_inputs
   input = gets.chomp 
   if input == "exit"
-    puts "Goodby!"
+    puts "Goodbye!"
   end 
 end
