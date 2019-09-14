@@ -4,3 +4,7 @@ def user_inputs
     puts "Goodbye!"
   end 
 end
+
+def run_guessing_game
+  
+end 
