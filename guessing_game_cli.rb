@@ -1,5 +1,5 @@
 def random
-  rand(1..6)
+  rand(6) + 1 
 end 
 
 def prompt
