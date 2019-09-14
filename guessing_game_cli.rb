@@ -22,7 +22,7 @@ def run_guessing_game
   comp = random
   #prompt
   user = user_input
-    if comp == user + 1 
+    if random == user
       correct
     elsif user == "exit"
       puts "Goodbye!"
