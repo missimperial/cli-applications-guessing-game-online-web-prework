@@ -11,7 +11,7 @@ def correct
 end
 
 def incorrect(num)
-  puts "Sorry! The computer guessed <#{num}>."
+  puts "Sorry! The computer guessed #{num}."
 end
 
 def user_input
