@@ -14,21 +14,20 @@ def incorrect(num)
   puts "Sorry! The computer guessed <#{num}>."
 end
 
-def user_inputs
-  input = gets.chomp 
-  if input == "exit"
-    puts "Goodbye!"
-  end 
+def user_input
+  gets.chomp 
 end
 
 def run_guessing_game
   comp = random
   prompt
-  user = user_inputs
+  user = user_input
     if user == comp
       correct
+    elsif user == "exit"
+      puts "Goodbye!"
     else
       incorrect(comp)
-    end
+  end 
 end 
 
