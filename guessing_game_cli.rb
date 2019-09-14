@@ -19,7 +19,7 @@ def user_input
 end
 
 def run_guessing_game
-  comp = random
+  #comp = random
   #prompt
   user = user_input
     if random == user
