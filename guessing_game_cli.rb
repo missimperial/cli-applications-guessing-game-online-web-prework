@@ -22,12 +22,12 @@ def run_guessing_game
   comp = random
   #prompt
   user = user_input
-    if random == user
-      correct
+    if random != user
+      incorrect(comp)
     elsif user == "exit"
       puts "Goodbye!"
     else
-      incorrect(comp)
+      correct
   end 
 end 
 
