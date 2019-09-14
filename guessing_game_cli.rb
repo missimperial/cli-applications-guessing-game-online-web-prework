@@ -6,8 +6,10 @@ def prompt
   puts "Please guess a number between 1 and 6."
 end 
 
-def user_input
-  gets.chomp 
+def user_inputs
+ user = gets.chomp 
+ if user == "exit"
+   puts "Goodbye!"
 end
 
 def correct
@@ -20,5 +22,11 @@ end
 
 
 def run_guessing_game
-  
+  comp = random
+  prompt
+  num = user_input
+  if num == comp
+    correct
+  else
+    incorrect(comp)
 end 
