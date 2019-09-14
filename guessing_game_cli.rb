@@ -24,5 +24,11 @@ end
 def run_guessing_game
   comp = random
   prompt
+  user = user_inputs
+    if user == comp
+      correct
+    else
+      incorrect(comp)
+    end
 end 
 
